@@ -1,0 +1,45 @@
+.howwework{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(185deg, rgb(0, 0, 0), rgb(62,53,67)); 
+
+    
+}
+.title{
+    font-size: 3em;
+    color: rgb(131, 108, 58);
+    font-weight: 400;
+    text-align: center;
+}
+
+.how1{
+    width: 50%;
+    height: 100%;
+}
+
+.how1{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+
+    font-size: 25px;
+    color: rgb(131, 108, 58);
+    font-family: pichon;
+}
+
+.menu{
+    font-size: pichon6;
+    color:rgb(131, 108, 58);
+    padding-bottom: "600px";
+}
+@font-face {
+    font-family: pichon;
+    src: url(../assets/BebasNeue-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: pichon6;
+    src: url(../assets/Vogue.ttf);
+  }

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: pichon6;
+    src: url(../assets/Vogue.ttf);
+  }
+.Contact{
+    font-family: pichon6;
+    background: linear-gradient(185deg, rgb(0, 0, 0), rgb(62,53,67));
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact h2{
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.form{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    background: none;
+    color: white;
+}
+.form .textarea{
+    width: 90%;
+    color: white;
+    resize: none;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #413b5e;
+}
+
+.form button{
+    width: 90px;
+    height: 40px;
+    border: 1px solid #9289be;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+    background: none;
+}
+
+.form label{
+    color: white;
+    margin-top: 5px;
+    font-size: 1em;
+}

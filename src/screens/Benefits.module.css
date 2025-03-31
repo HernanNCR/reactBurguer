@@ -1,0 +1,23 @@
+.Benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(-6deg,rgb(0, 0, 0), rgb(62,53,67));
+    height: 650px;
+}
+.Benefits p{
+    color: rgb(131, 108, 58);
+    padding-top: 20px;
+    font-size: 1.4em;
+    font-family: pichon;
+} 
+.BenefitsTitle{
+    font-size: 4em;
+    font-weight: 600;
+    color: white;
+}
+
+@font-face {
+    font-family: pichon;
+    src: url(../assets/BebasNeue-Regular.ttf);
+  }

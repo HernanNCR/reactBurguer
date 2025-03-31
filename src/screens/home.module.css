@@ -1,0 +1,78 @@
+.home{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(187deg, rgb(0, 0, 0), rgb(62,53,67));
+
+}
+.homeContainer{ 
+    padding: 0px  0px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home p{
+    color: white;
+    height: 100px;
+}
+.titleContainer{
+    padding-top: 100px;
+    font-family: pichon5;
+}
+.titleContainer p{
+    font-size: 4.5em;
+    color: white;
+}
+.callFuction{
+    background-color: rgba(127, 255, 212, 0.477);
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.callFuction:hover{
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.divImg{
+    position: relative;
+    width: 60%;
+    height: 600px;
+    z-index: 0;
+}
+
+.img{
+    width: 698px;
+    height: 398px;
+    top: 52%;
+    left: -5%;
+    position: absolute;
+
+}
+.img1{
+    width: 393px;
+    height: 524px;
+    top:-7%;
+    right: 20%;
+    position: absolute;
+}
+
+.img:hover,.img1:hover{
+    box-shadow: 0px 0px 20px white;
+    transition: .5s;
+}
+  
+
+
+.with{
+    font-family: pichon2;
+    font-size: 25px;
+    padding-left: 50px;
+    transform:rotate(-10deg);
+    position: relative;
+    top: -35px;
+}
